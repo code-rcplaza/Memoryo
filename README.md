@@ -4,9 +4,9 @@ This project is an interactive card matching game based on the classic memory ga
 
 ## Technologies Used
 
-**Vite** (https://vitejs.dev/): Fast development environment for web applications based on JavaScript.
-**React** (https://reactjs.org/): JavaScript library for building interactive user interfaces.
-**pnpm** (https://pnpm.io/): Package manager that offers a faster and more efficient development experience.
+1. **Vite** (https://vitejs.dev/): Fast development environment for web applications based on JavaScript.
+2. **React** (https://reactjs.org/): JavaScript library for building interactive user interfaces.
+3. **pnpm** (https://pnpm.io/): Package manager that offers a faster and more efficient development experience.
 
 ## Installation Instructions:
 

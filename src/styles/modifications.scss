@@ -1,0 +1,12 @@
+$color-emerald: #06d6a0;
+$color-gunmetal: #2a2d34;
+$color-sunglow: #ffd166;
+$color-crayola: #ef476f;
+$color-seasalt: #fafafa;
+$color-transparent: rgba(255, 255, 255, 1);
+
+$theme-colors: (
+  "primary": $color-sunglow,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";

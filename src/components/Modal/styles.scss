@@ -1,0 +1,13 @@
+.modal-background {
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-emerald),
+    var(--color-sunglow)
+  );
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.player-name {
+  color: var(--color-crayola);
+}

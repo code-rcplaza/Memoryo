@@ -1,0 +1,23 @@
+.form {
+  & .form__body .form__input {
+    background-color: var(--color-seasalt);
+    box-shadow: 0px 8px 0px -1px var(--color-crayola);
+    height: 60px;
+    border-radius: 10px;
+    border-color: var(--color-seasalt);
+    color: var(--color-gunmetal);
+
+    &:focus {
+      background-color: var(--color-seasalt);
+      box-shadow: 0px 6px 0px -1px var(--color-crayola);
+      height: 60px;
+      border-radius: 10px;
+      border-color: var(--color-seasalt);
+    }
+  }
+
+  & .form__btn {
+    font-weight: bold;
+    box-shadow: 0px 8px 0px -1px var(--color-gold);
+  }
+}

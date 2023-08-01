@@ -1,0 +1,43 @@
+.single-card {
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+
+  & div .single-card-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  & .flipped .single-card-front {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid var(--color-sunglow);
+  }
+
+  & div .single-card-front {
+    transform: rotateY(90deg);
+    transition: opacity 0.5s ease;
+    position: absolute;
+  }
+
+  & .flipped .single-card-front {
+    transform: rotateY(0deg);
+  }
+
+  & div .single-card-back {
+    transition: opacity 0.5s ease;
+    transition-delay: 0.2s;
+  }
+
+  & .flipped .single-card-back {
+    transform: rotateY(90deg);
+    transition-delay: 0.2s;
+  }
+}
